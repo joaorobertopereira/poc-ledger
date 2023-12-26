@@ -1,0 +1,21 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: kafka-consumer
+  jackson:
+    property-naming-strategy: SNAKE_CASE
+  #Kafka
+  kafka:
+    consumer:
+      group-id: ${KAFKA_CONSUMER_GROUP:pocledger-group}
+kafka:
+  topic:
+    name: kafka-topic
+
+aws:
+  dynamodb:
+    endpoint: https://dynamodb.us-east-1.amazonaws.com
+    accessKey: AKIA23H3IB55L4G2RSNT
+    secretKey: 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

@@ -1,0 +1,63 @@
+{
+  "data": {
+    "identificador_transacional": "87136ad2-5847-403e-a599-8e3de44944d9",
+    "quantidade_tempo_limite_processamento": 1000,
+    "conta": {
+      "identificador_unico_conta": "bbbbbbbbbbb",
+      "numero_titularidade_conta": "1"
+    },
+    "lancamentos": [
+      {
+        "tipo_movimentacao_conta": "CREDITO",
+        "identificador_lancamento_conta": "656240e4-78e1-4326-aec1-f7de1b5e8914",
+        "identificador_lancamento_conta_relacionado": null,
+        "codigo_composicao_saldo_conta": "A",
+        "codigo_sufixo_conta": 100000,
+        "indicador_lancamento_compulsorio_ocorrencia": false,
+        "valor": {
+          "valor_lancamento": "5984.110353812783",
+          "codigo_moeda_transacao": "BRL",
+          "valor_minimo": null
+        },
+        "contabil": {
+          "codigo_roteiro_contabil": "0000112233",
+          "codigo_instituicao_financeira": "4341",
+          "numero_agencia_contabil": "5631",
+          "numero_conta_contabil": "3333",
+          "codigo_indice_conta_contabil": "4444",
+          "indicador_tipo_conta_contabil": "C",
+          "texto_complemento_contabil": "19732099",
+          "data_contabil_lancamento": "2023-12-20"
+        },
+        "extrato": {
+          "codigo_motivo_lancamento": "095095",
+          "texto_complemento_lancamento": "20/12",
+          "inficador_lancamento_visivel_conta_cliente": false,
+          "codigo_agrupamento_lancamento": "ITI",
+          "descricao": "DESCRICAO OPERACAO"
+        },
+        "contraparte_transacao": {
+          "codigo_tipo_conta": "P",
+          "codigo_ispb": "341",
+          "numero_agencia_conta": "1500",
+          "numero_conta": "03030",
+          "numero_digito_verificador_conta": "0",
+          "numero_unico_cliente": "123456789",
+          "nome_cliente_conta": "Joao dos Santos",
+          "numero_documento_conta": "33366699988",
+          "codigo_tipo_pessoa_conta": "FISICA",
+          "codigo_finalidade_transferencia": "2",
+          "nome_instituicao_financeira": "BCO SANTANDER (BRASIL) S.A."
+        }
+      }
+    ],
+    "origem_transacao": {
+      "codigo_tipo_operacao": "PIX_RECEPCAO",
+      "sigla_sistema_origem": "X0",
+      "identificador_origem_transacao": "E987234982739847293784DOIASDML93",
+      "identificador_produto": "PIX",
+      "canal": "Internet",
+      "complemento_canal": "ApplePay"
+    }
+  }
+}
